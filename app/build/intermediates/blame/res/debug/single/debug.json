@@ -96,6 +96,10 @@
         "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_location_on_black_24dp.png"
     },
     {
+        "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/layout_item_daily_forecast.xml.flat",
+        "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/item_daily_forecast.xml"
+    },
+    {
         "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
