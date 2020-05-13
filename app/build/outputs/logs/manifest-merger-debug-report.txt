@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/07d91a6f02149585995d851c56f12844/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.2.0] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/debc6b5ec172cd4e91fd2a884dcaa8f1/jetified-core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/a609f666eaf9da5777e80facded89453/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -27,25 +27,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/masterblade/.gradl
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/f7e38df3ced86a5cb320c175a117bee4/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/d491f406281f38996fd5400c8a64454d/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/e20b1472484bb9f8b3735db9ba554cbb/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
-INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:5:5-25:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/a609f666eaf9da5777e80facded89453/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/a609f666eaf9da5777e80facded89453/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.2.0] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/0b96859a3cdf2530aa3d77dcfaeaf2fb/core-1.2.0/AndroidManifest.xml:24:5-89
@@ -66,20 +66,24 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mast
 		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.weatherapp.details.ForecastDetailsActivity
+ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:12:9-15:20
+	android:name
+		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:13:13-60
 activity#com.example.weatherapp.MainActivity
-ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:17:9-24:20
 	android:name
-		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml
