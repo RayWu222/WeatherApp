@@ -48,6 +48,10 @@
         "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/menu_settings_menu.xml.flat",
+        "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/res/menu/settings_menu.xml"
+    },
+    {
         "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_main.xml"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_location_on_black_24dp.png.flat",
         "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_location_on_black_24dp.png"
+    },
+    {
+        "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/layout_activity_forecast_details.xml.flat",
+        "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/activity_forecast_details.xml"
     },
     {
         "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
