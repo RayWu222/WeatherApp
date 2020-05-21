@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/layout_fragment_location_entry.xml.flat",
+        "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/fragment_location_entry.xml"
+    },
+    {
         "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_location_on_black_24dp.xml.flat",
         "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_location_on_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/layout_fragment_current_forecast.xml.flat",
+        "source": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/res/layout/fragment_current_forecast.xml"
     },
     {
         "merged": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
