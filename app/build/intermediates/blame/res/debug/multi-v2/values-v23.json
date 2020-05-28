@@ -4,7 +4,7 @@
             "outputFile": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/07d91a6f02149585995d851c56f12844/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/7d491d88bd067e83069443f71f6ab6f0/appcompat-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,26 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/705a9df676c04cd76c27fb3e4867b71a/cardview-1.0.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "3407",
-                        "endLines": "50",
-                        "endColumns": "12",
-                        "endOffsets": "3552"
-                    }
-                },
-                {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/ad62cdd3b372bb81e612ecadb6ca9d76/material-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/f6e7e79cb9f14c6c513ee8c303dec61b/material-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -50,6 +31,25 @@
                         "endLines": "54,58",
                         "endColumns": "10,10",
                         "endOffsets": "3817,4090"
+                    }
+                },
+                {
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/e37af46afe1203e474b4d3d1a7c32f46/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "3407",
+                        "endLines": "50",
+                        "endColumns": "12",
+                        "endOffsets": "3552"
                     }
                 }
             ]

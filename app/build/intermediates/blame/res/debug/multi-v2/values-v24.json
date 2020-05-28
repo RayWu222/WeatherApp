@@ -4,7 +4,17 @@
             "outputFile": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/7744bf1c1a9eb83f849bb62720f3dc7e/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/7d491d88bd067e83069443f71f6ab6f0/appcompat-1.1.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/89d7ac138b6b63b774ffab5b6915dfd1/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
-                    }
-                },
-                {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/07d91a6f02149585995d851c56f12844/appcompat-1.1.0/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]
