@@ -1490,6 +1490,7 @@ id add
 id alertTitle
 id all
 id always
+id appBarLayout
 id async
 id auto
 id barrier
@@ -1512,6 +1513,8 @@ id chronometer
 id clear_text
 id clip_horizontal
 id clip_vertical
+id coil_bitmap
+id coil_request_manager
 id collapseActionView
 id confirm_button
 id container
@@ -1522,6 +1525,7 @@ id currentForecastFragment
 id custom
 id customPanel
 id cut
+id dateText
 id date_picker_actions
 id decor_content_parent
 id default_activity_button
@@ -1554,6 +1558,7 @@ id filter_chip
 id fitToContents
 id fixed
 id forecastDetailsActivityFragment
+id forecastIcon
 id forecastList
 id forever
 id fragment_container_view_tag
@@ -1582,6 +1587,7 @@ id listMode
 id list_item
 id locationEntryButton
 id locationEntryFragment
+id locationName
 id main_nav
 id masked
 id media_actions

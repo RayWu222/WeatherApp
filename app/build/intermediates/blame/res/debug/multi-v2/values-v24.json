@@ -4,7 +4,7 @@
             "outputFile": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/7d491d88bd067e83069443f71f6ab6f0/appcompat-1.1.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/7f976b5b48cfa823746ee84bfd97de5a/appcompat-1.1.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/89d7ac138b6b63b774ffab5b6915dfd1/media-1.0.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/dd76a2a3aabc2b3b86979e467002036a/media-1.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

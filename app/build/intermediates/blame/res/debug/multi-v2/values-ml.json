@@ -4,24 +4,7 @@
             "outputFile": "/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml",
             "map": [
                 {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/594dd552853d1835a11d8a4c6439b8bd/navigation-ui-2.2.2/res/values-ml/values-ml.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,180",
-                        "endColumns": "124,118",
-                        "endOffsets": "175,294"
-                    },
-                    "to": {
-                        "startLines": "29,30",
-                        "startColumns": "4,4",
-                        "startOffsets": "2854,2979",
-                        "endColumns": "124,118",
-                        "endOffsets": "2974,3093"
-                    }
-                },
-                {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/7d491d88bd067e83069443f71f6ab6f0/appcompat-1.1.0/res/values-ml/values-ml.xml",
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/7f976b5b48cfa823746ee84bfd97de5a/appcompat-1.1.0/res/values-ml/values-ml.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/ada439e399d88bfb4e87d18524afab1c/core-1.2.0/res/values-ml/values-ml.xml",
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/c0caa6aa8c21dcacef77920da4450071/navigation-ui-2.2.2/res/values-ml/values-ml.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,180",
+                        "endColumns": "124,118",
+                        "endOffsets": "175,294"
+                    },
+                    "to": {
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "2854,2979",
+                        "endColumns": "124,118",
+                        "endOffsets": "2974,3093"
+                    }
+                },
+                {
+                    "source": "/Users/masterblade/.gradle/caches/transforms-2/files-2.1/4c7535a53f6baea29322ba06e85eff65/core-1.2.0/res/values-ml/values-ml.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
