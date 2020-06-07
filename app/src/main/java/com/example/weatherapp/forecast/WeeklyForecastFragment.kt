@@ -47,7 +47,7 @@ class WeeklyForecastFragment : Fragment() {
         val forecastList: RecyclerView = view.findViewById(R.id.forecastList)
         forecastList.layoutManager = LinearLayoutManager(requireContext())
         val dailyForecastAdapter = DailyForecastAdapter(tempDisplaySettingManager){forecast ->
-            showLocationEntry()
+            showForecastDetails(forecast)
 
 
 
@@ -79,9 +79,12 @@ class WeeklyForecastFragment : Fragment() {
         findNavController().navigate(action)
     }
     private fun showForecastDetails(forecast: DailyForecast){
+
         val temp = forecast.temp.max
         val description = forecast.weather[0].description
-        val action = WeeklyForecastFragmentDirections.actionWeeklyForecastFragmentToForecastDetailsActivityFragment(temp,description)
+        val date = forecast.date
+        val icon = forecast.weather[0].icon
+        val action = WeeklyForecastFragmentDirections.actionWeeklyForecastFragmentToForecastDetailsActivityFragment(temp,description,date,icon)
         findNavController().navigate(action)
     }
 

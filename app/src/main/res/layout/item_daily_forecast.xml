@@ -26,9 +26,9 @@
         android:layout_marginStart="16dp"
         android:text="Partly Cloudy"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="@id/tempText"
-        app:layout_constraintStart_toEndOf="@id/tempText"
-        app:layout_constraintTop_toTopOf="@id/tempText" />
+        app:layout_constraintBottom_toBottomOf="@id/dateText"
+        app:layout_constraintStart_toEndOf="@id/dateText"
+        app:layout_constraintTop_toTopOf="@id/dateText" />
 
     <TextView
         android:id="@+id/dateText"

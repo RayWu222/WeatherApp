@@ -5,6 +5,7 @@
         android:id = "@+id/currentForecastFragment"
         android:icon="@drawable/ic_location_on_black_24dp"
         android:title="@string/bottom_nav_label_today"
+
         />
 
     <item

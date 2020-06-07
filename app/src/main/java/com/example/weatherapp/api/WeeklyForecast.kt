@@ -9,6 +9,8 @@ data class DailyForecast(
     @field:Json(name = "dt") val date: Long,
     val temp: Temp,
     val weather: List<WeatherDescription>
+
+
 )
 
 /**

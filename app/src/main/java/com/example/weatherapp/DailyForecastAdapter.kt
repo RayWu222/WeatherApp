@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.api.load
 import com.example.weatherapp.api.DailyForecast
-import kotlinx.android.synthetic.main.item_daily_forecast.view.*
 import java.text.SimpleDateFormat
 import java.util.*
 
