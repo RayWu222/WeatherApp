@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ProgressBar
+import android.widget.TextView
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -17,6 +19,8 @@ import com.example.weatherapp.api.WeeklyForecast
 
 import com.example.weatherapp.details.ForecastDetailsActivityFragment
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import kotlinx.android.synthetic.main.fragment_current_forecast.*
+import kotlinx.android.synthetic.main.fragment_weekly_forecast.*
 
 /**
  * A simple [Fragment] subclass.
@@ -34,9 +38,11 @@ class WeeklyForecastFragment : Fragment() {
         tempDisplaySettingManager = TempDisplaySettingManager(requireContext())
 
         val zipcode  = arguments?.getString(KEY_ZIPCODE) ?:""
-        // Inflate the layout fo
-        // r this fragment
+
         val view = inflater.inflate(R.layout.fragment_weekly_forecast, container, false)
+
+        val emptyText = view.findViewById<TextView>(R.id.emptyText)
+        val progressBar = view.findViewById<ProgressBar>(R.id.progressBar)
 
         val locationEntryButton : FloatingActionButton = view.findViewById(R.id.locationEntryButton)
         locationEntryButton.setOnClickListener{
@@ -55,16 +61,20 @@ class WeeklyForecastFragment : Fragment() {
         forecastList.adapter = dailyForecastAdapter
 
         val weeklyForecastObserver = Observer<WeeklyForecast>{ weeklyForecast->
+            emptyText.visibility = View.GONE
+            progressBar.visibility = View.GONE
             //update our list adapter
-            //dailyForecastAdapter.submitList(weeklyForecast.daily))
-
             dailyForecastAdapter.submitList(weeklyForecast.daily)
         }
         forecastRespository.weeklyForecast.observe(viewLifecycleOwner, weeklyForecastObserver)
+
         locationRepository = LocationRepository(requireContext())
         val savedLocationObserver = Observer<Location>{savedLocation ->
             when(savedLocation){
-                is Location.Zipcode -> forecastRespository.loadWeeklyForecast(savedLocation.zipcode)
+                is Location.Zipcode -> {
+                    progressBar.visibility = View.VISIBLE
+                    forecastRespository.loadWeeklyForecast(savedLocation.zipcode)
+                }
             }
 
 
