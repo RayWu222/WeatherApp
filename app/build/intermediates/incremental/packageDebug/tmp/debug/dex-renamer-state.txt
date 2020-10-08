@@ -1,4 +1,4 @@
-#Wed May 27 19:59:47 PDT 2020
-base.0=/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/dex/debug/out/classes.dex
+#Sat Jun 06 20:51:02 PDT 2020
+base.0=/Users/masterblade/AndroidStudioProjects/WeatherApp/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

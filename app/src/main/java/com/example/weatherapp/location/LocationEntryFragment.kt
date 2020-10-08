@@ -10,6 +10,9 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 
+import com.example.weatherapp.Location
+import com.example.weatherapp.LocationRepository
+
 import com.example.weatherapp.R
 
 /**
@@ -17,12 +20,15 @@ import com.example.weatherapp.R
  */
 class LocationEntryFragment : Fragment() {
 
+    private lateinit var locationRespository: LocationRepository
 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        locationRespository = LocationRepository(requireContext())
+
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_location_entry, container, false)
         //update  UI, get view references
@@ -34,6 +40,8 @@ class LocationEntryFragment : Fragment() {
 
                 Toast.makeText(requireContext(), R.string.zipcode_entry_error, Toast.LENGTH_SHORT).show()
             }else{
+
+                locationRespository.savedLocation(Location.Zipcode(zipcode))
 
                findNavController().navigateUp()
                 //forecastRespository.loadForecast(zipcode)

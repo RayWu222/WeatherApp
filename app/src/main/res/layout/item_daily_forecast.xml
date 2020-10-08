@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="56dp"
-    android:foreground="?attr/selectableItemBackground"
-    android:clickable ="true"
-    >
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
 
     <TextView
         android:id="@+id/tempText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:text="70.0"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/dateText"
+        app:layout_constraintStart_toEndOf="@+id/forecastIcon"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/descriptionText"
@@ -27,7 +26,31 @@
         android:layout_marginStart="16dp"
         android:text="Partly Cloudy"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="@id/tempText"
-        app:layout_constraintStart_toEndOf="@id/tempText"
-        app:layout_constraintTop_toTopOf="@id/tempText"/>
+        app:layout_constraintBottom_toBottomOf="@id/dateText"
+        app:layout_constraintStart_toEndOf="@id/dateText"
+        app:layout_constraintTop_toTopOf="@id/dateText" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tempText"
+        app:layout_constraintTop_toBottomOf="@+id/tempText" />
+
+    <ImageView
+        android:id="@+id/forecastIcon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_wb_cloudy_black_24dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
