@@ -11,11 +11,11 @@
 9-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:5:5-25:19
+11-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
 12-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.2.0] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/0b96859a3cdf2530aa3d77dcfaeaf2fb/core-1.2.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.2.0] /Users/masterblade/.gradle/caches/transforms-2/files-2.1/ada439e399d88bfb4e87d18524afab1c/core-1.2.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:7:9-43
@@ -28,24 +28,20 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.weatherapp.details.ForecastDetailsActivity" >
-21-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:12:9-15:20
-21-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:13:13-60
-22        </activity>
-23        <activity android:name="com.example.weatherapp.MainActivity" >
-23-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:17:9-24:20
-23-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:17:19-47
-24            <intent-filter>
-24-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:18:13-22:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:19:17-69
-25-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:19:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:21:17-77
-27-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:21:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+21        <activity android:name="com.example.weatherapp.MainActivity" >
+21-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:14:9-21:20
+21-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:14:19-47
+22            <intent-filter>
+22-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:15:13-19:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:16:17-69
+23-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:18:17-77
+25-->/Users/masterblade/AndroidStudioProjects/WeatherApp/app/src/main/AndroidManifest.xml:18:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>

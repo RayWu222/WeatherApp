@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/currentForecastFragment">
+
+    <fragment
+        android:id="@+id/locationEntryFragment"
+        android:name="com.example.weatherapp.location.LocationEntryFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_location_entry" />
+    <fragment
+        android:id="@+id/currentForecastFragment"
+        android:name="com.example.weatherapp.forecast.CurrentForecastFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_current_forecast" >
+        <action
+            android:id="@+id/action_currentForecastFragment_to_locationEntryFragment"
+            app:destination="@id/locationEntryFragment" />
+        <action
+            android:id="@+id/action_currentForecastFragment_to_forecastDetailsActivityFragment"
+            app:destination="@id/forecastDetailsActivityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forecastDetailsActivityFragment"
+        android:name="com.example.weatherapp.details.ForecastDetailsActivityFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_forecast_details" >
+        <argument
+            android:name="temp"
+            app:argType="float" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/weeklyForecastFragment"
+        android:name="com.example.weatherapp.forecast.WeeklyForecastFragment"
+        android:label="WeeklyForecastFragment"
+        tools:layout="@layout/fragment_weekly_forecast">
+        <action
+            android:id="@+id/action_weeklyForecastFragment_to_forecastDetailsActivityFragment"
+            app:destination="@id/forecastDetailsActivityFragment" />
+        <action
+            android:id="@+id/action_weeklyForecastFragment_to_locationEntryFragment"
+            app:destination="@id/locationEntryFragment" />
+    </fragment>
+</navigation>

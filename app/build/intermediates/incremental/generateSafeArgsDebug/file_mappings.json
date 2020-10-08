@@ -1,0 +1,1 @@
+[{"navFile":"src/main/res/navigation/main_nav.xml","javaFiles":["com.example.weatherapp.forecast.CurrentForecastFragmentDirections","com.example.weatherapp.details.ForecastDetailsActivityFragmentArgs","com.example.weatherapp.forecast.WeeklyForecastFragmentDirections"]}]
